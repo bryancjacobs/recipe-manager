@@ -1,0 +1,34 @@
+<div>
+
+  <h1>Recipes</h1>
+
+  <div style="padding-bottom: 20px;">
+    <a href="#/create">Create Recipe</a>
+    <input type="text" ng-model="search" placeholder="Search" style="float:right; padding-bottom: 5px;"/>
+  </div>
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Book</th>
+        <th>Page</th>
+        <th>Ingredients</th>
+        <th>Liked By</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="recipe in recipes | orderByPriority | filter:search" >
+        <td>{{ recipe.name }}</td>
+        <td>{{ recipe.book }}</td>
+        <td>{{ recipe.page }}</td>
+        <td>{{ recipe.ingredients }}</td>
+        <td>{{ recipe.likedBy }}</td>
+        <td>
+          <a ng-href="#/edit/{{ recipe.$id }}">Edit</a>
+          <a ng-click="destroy(recipe.$id)" href="#">Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

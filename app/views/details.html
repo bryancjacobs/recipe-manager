@@ -1,0 +1,45 @@
+<form class="form-horizontal">
+  <fieldset>
+    <h2>Details</h2>
+
+    <div class="group">
+      <label>Name</label>
+      <div>
+        <input type="text" placeholder="Name" ng-model="recipe.name" style="width: 300px" />
+      </div>
+    </div>
+
+    <div class="group">
+      <label>Book</label>
+      <div>
+        <input type="text" placeholder="Book" ng-model="recipe.book" style="width: 300px"/>
+      </div>
+    </div>
+
+    <div class="group">
+      <label>Page</label>
+      <div>
+        <input type="text" placeholder="Page" ng-model="recipe.page" style="width: 300px"/>
+      </div>
+    </div>
+
+    <div class="group">
+      <label>Liked By</label>
+      <div>
+        <input type="text" placeholder="Liked By" ng-model="recipe.likedBy" style="width: 300px"/>
+      </div>
+    </div>
+
+    <div class="group">
+      <label>Ingredients</label>
+      <div>
+        <input type="text" placeholder="Ingredients" ng-model="recipe.ingredients" style="width: 300px"/>
+      </div>
+    </div>
+
+    <div style="margin-top: 18px;">
+      <button ng-click="create()" class="btn btn-small btn-primary">Save</button>
+      <button ng-click="cancel()" type="submit" class="btn btn-small">Cancel</button>
+    </div>
+  </fieldset>
+</form>

@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "http-proxy": "0.10.3"
+  },
+  "engines": {
+    "cfNpmInstall":true,
+    "node": "0.8.x",
+    "npm": "= 1.2.12"
+   
+  }
+}
