@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afb61e59-2130-447c-a5ff-38c5c723317f" name="Default" comment="" />
+    <list default="true" id="afb61e59-2130-447c-a5ff-38c5c723317f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="recipe-manager.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.html" changelist="afb61e59-2130-447c-a5ff-38c5c723317f" time="1387554529691" ignored="false" />
@@ -19,6 +23,7 @@
     <file path="$PROJECT_DIR$/../js-ninja/ninja-code/chapter-4/listing-4.16.html" changelist="afb61e59-2130-447c-a5ff-38c5c723317f" time="1392223560830" ignored="false" />
     <file path="$PROJECT_DIR$/../js-ninja/ninja-code/chapter-4/add-method.js" changelist="afb61e59-2130-447c-a5ff-38c5c723317f" time="1392224141794" ignored="false" />
     <file path="/add-method.js" changelist="afb61e59-2130-447c-a5ff-38c5c723317f" time="1392224141795" ignored="false" />
+    <file path="/Dummy.txt" changelist="afb61e59-2130-447c-a5ff-38c5c723317f" time="1392233807331" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +87,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="6" selection-start="738" selection-end="738" vertical-scroll-proportion="0.8003195">
+            <state line="27" column="31" selection-start="544" selection-end="544" vertical-scroll-proportion="0.057507988">
               <folding />
             </state>
           </provider>
@@ -94,6 +99,14 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -113,7 +126,7 @@
     <option name="width" value="1920" />
     <option name="height" value="774" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -139,6 +152,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,17 +206,20 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-ninja/js-ninja.iml" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager">
@@ -218,19 +235,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -259,6 +263,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -323,7 +340,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -411,13 +428,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="25" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.0">
@@ -427,23 +437,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="11" selection-start="426" selection-end="792" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="11" selection-start="426" selection-end="792" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="342" selection-end="352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="31" selection-start="342" selection-end="352" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="17" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="19" selection-start="17" selection-end="23" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/firebase/firebase.js">
@@ -453,9 +457,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="17" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="19" selection-start="17" selection-end="23" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
@@ -467,9 +469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="92" selection-end="92" vertical-scroll-proportion="0.016519824">
-          <folding />
-        </state>
+        <state line="8" column="6" selection-start="92" selection-end="92" vertical-scroll-proportion="0.016519824" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
@@ -483,23 +483,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="70" selection-start="557" selection-end="557" vertical-scroll-proportion="0.36165327">
-          <folding />
-        </state>
+        <state line="21" column="70" selection-start="557" selection-end="557" vertical-scroll-proportion="0.36165327" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="172" selection-end="172" vertical-scroll-proportion="0.1486784">
-          <folding />
-        </state>
+        <state line="9" column="18" selection-start="172" selection-end="172" vertical-scroll-proportion="0.1486784" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -511,6 +505,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../js-ninja/js-ninja.iml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -518,7 +517,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="6" selection-start="738" selection-end="738" vertical-scroll-proportion="0.8003195">
+        <state line="27" column="31" selection-start="544" selection-end="544" vertical-scroll-proportion="0.057507988">
           <folding />
         </state>
       </provider>
