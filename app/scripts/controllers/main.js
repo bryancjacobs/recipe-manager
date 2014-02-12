@@ -4,7 +4,7 @@ var app = angular.module('recipeManagerApp');
 
 var ref = new Firebase('https://recipe-manager-v1.firebaseio.com/');
 
-app.controller('MainCtrl', ['$scope', '$firebase', '$location', function ($scope, $firebase) {
+app.controller('MainCtrl', ['$scope', '$firebase', function ($scope, $firebase) {
 
   $scope.recipes = $firebase(ref);
 

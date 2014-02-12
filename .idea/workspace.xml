@@ -16,6 +16,9 @@
     <file path="$PROJECT_DIR$/../js-ninja/test.html" changelist="afb61e59-2130-447c-a5ff-38c5c723317f" time="1389035367510" ignored="false" />
     <file path="/test.html" changelist="afb61e59-2130-447c-a5ff-38c5c723317f" time="1389035037996" ignored="false" />
     <file path="$PROJECT_DIR$/../imos/pom.xml" changelist="afb61e59-2130-447c-a5ff-38c5c723317f" time="1389204608102" ignored="false" />
+    <file path="$PROJECT_DIR$/../js-ninja/ninja-code/chapter-4/listing-4.16.html" changelist="afb61e59-2130-447c-a5ff-38c5c723317f" time="1392223560830" ignored="false" />
+    <file path="$PROJECT_DIR$/../js-ninja/ninja-code/chapter-4/add-method.js" changelist="afb61e59-2130-447c-a5ff-38c5c723317f" time="1392224141794" ignored="false" />
+    <file path="/add-method.js" changelist="afb61e59-2130-447c-a5ff-38c5c723317f" time="1392224141795" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +82,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="55" selection-start="889" selection-end="889" vertical-scroll-proportion="0.7929515">
+            <state line="41" column="6" selection-start="738" selection-end="738" vertical-scroll-proportion="0.8003195">
               <folding />
             </state>
           </provider>
@@ -108,7 +111,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1054" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -196,7 +199,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../imos/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-ninja/js-ninja.iml" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -320,7 +323,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -408,13 +411,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
@@ -513,9 +509,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../js-ninja/js-ninja.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="55" selection-start="889" selection-end="889" vertical-scroll-proportion="0.7929515">
+        <state line="41" column="6" selection-start="738" selection-end="738" vertical-scroll-proportion="0.8003195">
           <folding />
         </state>
       </provider>
